@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "VimTab Navigator",
+  "version": "1.0",
+  "description": "Navigate tabs with Vim-like keyboard shortcuts",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "previous-tab": {
+      "suggested_key": {
+        "default": "Alt+H"
+      },
+      "description": "Switch to previous tab"
+    },
+    "next-tab": {
+      "suggested_key": {
+        "default": "Alt+L"
+      },
+      "description": "Switch to next tab"
+    }
+  }
+}
