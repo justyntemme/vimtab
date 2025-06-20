@@ -3,9 +3,6 @@
   "name": "VimTab Navigator",
   "version": "1.0",
   "description": "Navigate tabs with Vim-like keyboard shortcuts",
-  "permissions": [
-    "tabs"
-  ],
   "background": {
     "service_worker": "background.js"
   },
